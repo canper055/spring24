@@ -1,0 +1,19 @@
+yourname = input("enter your name")
+description = input("Who are you? ")
+
+myhtmlfile = open ('htmlfile', 'w')
+
+myhtmlfile.write('<html>')
+myhtmlfile.write('<body>')
+myhtmlfile.write('<h1>')
+
+myhtmlfile.write(yourname)
+
+myhtmlfile.write('</h1>')
+
+myhtmlfile.write(description)
+
+
+myhtmlfile.write('</body>')
+myhtmlfile.write('</html')
+myhtmlfile.close()
